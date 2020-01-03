@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/大二上课设/学生通讯录管理系统.py" dialect="GenericSQL" />
+  </component>
+</project>
