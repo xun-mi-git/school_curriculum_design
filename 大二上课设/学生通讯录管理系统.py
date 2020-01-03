@@ -120,7 +120,3 @@ if __name__ == '__main__':
             tables_data = input('删除内容')
             data.pop(header_data[header_num], tables_data)
             repeat = data.repeats
-
-
-
-

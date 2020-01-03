@@ -14,6 +14,7 @@
 ③统计输出二叉树的结点总数、叶子总数、树高。
 """
 
+
 class Node:
     def __init__(self, data, left=None, right=None):
         self.data = data
@@ -30,7 +31,7 @@ class Tree:
     def clear(self):
         self.__root = None
 
-    @ property
+    @property
     def root(self):
         return self.__root
 
@@ -152,6 +153,7 @@ class Tree:
             depth = depth.left
         return i
 
+
 if __name__ == '__main__':
     # 实例化树
     tree = Tree()
@@ -171,7 +173,7 @@ if __name__ == '__main__':
         if n == '1':
             i, j = 0, 0
             while i < len(tree.wide()):
-                i = 2*i+1
+                i = 2 * i + 1
                 print(tree.wide()[j:i])
                 j = i
         if n == '2':

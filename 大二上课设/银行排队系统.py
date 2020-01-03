@@ -14,6 +14,7 @@
 ③客户离开银行时，有评价窗口银行职员服务的平台。
 """
 
+
 # 假设有任意个常规窗口和1个VIP窗口
 class Queue:
     # 队列取号查号呼叫操作
@@ -68,7 +69,6 @@ class Eva:
         :return: 是否需要评价
         """
         return self.__items.get(window_num, False)
-
 
     def eva_sys(self, num, window_num, items):
         """
@@ -153,4 +153,3 @@ if __name__ == '__main__':
 
         elif a == '4':
             print(eva.evas)
-
